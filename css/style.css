@@ -6,7 +6,11 @@ body{
 }
 h1{
     color: rgb(7, 62, 133);
+    font-family: 'Turret Road', cursive;
 }
 #button{
-width: 30%;
+width: 20%;
+}
+input{
+    width: 40%;
 }
