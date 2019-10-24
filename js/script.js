@@ -7,7 +7,7 @@ $("#button").click(function(){
  wrds.forEach(function(letter) {
      var n = letter.search(/[aeiouAEIOU]/);
      if (n == -1) {
-         n = 0
+         n = letter.search(/[yY]/);
      }
     var end = letter.slice(n);
     var beg = letter.slice(0, n);
